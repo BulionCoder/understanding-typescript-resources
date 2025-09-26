@@ -17,6 +17,3 @@ class User {
 const daria = new User('Max', 37);
 const jakub = new User('Jakub')
 
-
-console.log(daria)
-console.log(jakub)
