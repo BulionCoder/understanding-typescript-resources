@@ -1,4 +1,4 @@
-# Understanding TypeScript Course Resources
+# Understanding TypeScript Course Resources // Daria's version
 
 This repository contains attachments, slides and code snapshots for my course [Understanding TypeScript](https://acad.link/typescript).
 
