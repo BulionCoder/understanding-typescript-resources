@@ -83,24 +83,27 @@ class User {
 
   set firstName(name: string) {
     if (name.trim() === "") {
-      throw new Error(" Invalid name");
+      throw new Error("Invalid name");
     }
     this._firstName = name;
   }
 
   set lastName(name: string) {
     if (name.trim() === "") {
-      throw new Error(" Invalid name");
+      throw new Error("Invalid name");
     }
     this._lastName = name;
   }
-  get fullName(){
-    return this._firstName + " " + this._lastName
+  get fullName() {
+    return this._firstName + " " + this._lastName;
   }
+
+  static eid = "USER"; // you can access on the class itself
 }
 
 const daria = new User();
-daria.firstName = "Daria";
-daria.lastName = ""
-console.log(daria.fullName);
+// daria.firstName = "Daria";
+// daria.lastName = "Bunia";
+// console.log(daria.fullName);
+console.log(User.eid);
 
